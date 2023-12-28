@@ -1,0 +1,7 @@
+//
+// File created by:  xmverilog
+// Do not modify this file
+//
+../testbench/cdc_fifo_tb.v
++access+r
++gui

@@ -1,0 +1,96 @@
+*** Message Type: info ***
+When: Wed Oct 04 21:33:31 EDT 2023
+SimVision started.
+Version: TOOL:  simvision(64)   17.10-s001
+User: G23525839
+Host: shell.seas.gwu.edu
+Platform: Linux/x86_64/3.10.0-1160.90.1.el7.x86_64
+Started: Wed Oct 04 21:33:31 EDT 2023
+Command: /apps/vlsi_2018/cadence/XCELIUM1710/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:shell.seas.gwu.edu:53048 -64BIT -nocopyright
+Work Directory: /home/ead/G23525839/ece6213/project4/simulation/work
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:33:31 EDT 2023
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:33:32 EDT 2023
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:33:33 EDT 2023
+Connect to Simulator
+      Design: worklib.tail_light_control_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       17.10-s001
+        User: G23525839
+        Host: shell.seas.gwu.edu
+Time Started: Wed Oct 04 21:33:30 EDT 2023
+  Process ID: 274993
+   Directory: /home/ead/G23525839/ece6213/project4/simulation/work
+     Command: xmverilog ../testbench/tail_light_control_tb.v +access+r +gui
+
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:33:34 EDT 2023
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:33:49 EDT 2023
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:46:44 EDT 2023
+Delete waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:46:48 EDT 2023
+Delete browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:46:51 EDT 2023
+Exit XM-Sim: user
+      Design: worklib.tail_light_control_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       17.10-s001
+        User: G23525839
+        Host: shell.seas.gwu.edu
+Time Started: Wed Oct 04 21:33:30 EDT 2023
+  Process ID: 274993
+   Directory: /home/ead/G23525839/ece6213/project4/simulation/work
+     Command: xmverilog ../testbench/tail_light_control_tb.v +access+r +gui
+
+ 
+*** Message Type: error ***
+When: Wed Oct 04 21:46:52 EDT 2023
+XM-Sim Crashed:
+      Design: worklib.tail_light_control_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       17.10-s001
+        User: G23525839
+        Host: shell.seas.gwu.edu
+Time Started: Wed Oct 04 21:33:30 EDT 2023
+  Process ID: 274993
+   Directory: /home/ead/G23525839/ece6213/project4/simulation/work
+     Command: xmverilog ../testbench/tail_light_control_tb.v +access+r +gui
+      Design: worklib.tail_light_control_tb:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL: xmsim(64)       17.10-s001
+        User: G23525839
+        Host: shell.seas.gwu.edu
+Time Started: Wed Oct 04 21:33:30 EDT 2023
+  Process ID: 274993
+   Directory: /home/ead/G23525839/ece6213/project4/simulation/work
+     Command: xmverilog ../testbench/tail_light_control_tb.v +access+r +gui
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Wed Oct 04 21:46:56 EDT 2023
+SimVision Exit.
+ 

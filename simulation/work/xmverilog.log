@@ -1,0 +1,67 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Nov 02, 2023 at 23:34:30 EDT
+xmverilog
+	../testbench/cdc_fifo_tb.v
+	+access+r
+	+gui
+Recompiling... reason: file '../testbench/cdc_fifo_tb.v' is newer than expected.
+	expected: Thu Nov  2 23:16:02 2023
+	actual:   Thu Nov  2 23:34:16 2023
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.cdc_fifo_tb:v <0x5370d979>
+			streams:   4, words: 16385
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 7       6
+		Registers:              45      42
+		Scalar wires:           12       -
+		Vectored wires:          9       -
+		Always blocks:          15      13
+		Initial blocks:          1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.cdc_fifo_tb:v
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc
+xcelium> run
+Testcase:                                         , read_data = 00000000, full = 0, empty = 1, Time =                    0
+Testcase:                          writing to 0000, read_data = 00000000, full = 0, empty = 1, Time =                55000
+Testcase:                          writing to 0001, read_data = 00000000, full = 0, empty = 1, Time =                65000
+Testcase:                          writing to 0010, read_data = 00000000, full = 0, empty = 1, Time =                75000
+Testcase:                          writing to 0011, read_data = 00000000, full = 0, empty = 1, Time =                85000
+Testcase:                          writing to 0100, read_data = 00000000, full = 0, empty = 1, Time =                95000
+Testcase:                          writing to 0101, read_data = 00000000, full = 0, empty = 1, Time =               105000
+Testcase:                          writing to 0110, read_data = 00000000, full = 0, empty = 1, Time =               115000
+Testcase:                          writing to 0111, read_data = 00000000, full = 0, empty = 1, Time =               125000
+Testcase:                          writing to 0111, read_data = 00000000, full = 0, empty = 0, Time =               128000
+Testcase:                         testing overflow, read_data = 00000000, full = 1, empty = 0, Time =               135000
+Testcase:                        reading from 0000, read_data = 00000000, full = 1, empty = 0, Time =               163000
+Testcase:                        reading from 0001, read_data = 00000000, full = 1, empty = 0, Time =               180000
+Testcase:                        reading from 0010, read_data = 00000000, full = 1, empty = 0, Time =               197000
+Testcase:                        reading from 0010, read_data = 00000001, full = 1, empty = 0, Time =               213000
+Testcase:                        reading from 0011, read_data = 00000001, full = 1, empty = 0, Time =               214000
+Testcase:                        reading from 0011, read_data = 00000010, full = 1, empty = 0, Time =               230000
+Testcase:                        reading from 0100, read_data = 00000010, full = 1, empty = 0, Time =               231000
+Testcase:                        reading from 0100, read_data = 00000010, full = 0, empty = 0, Time =               235000
+Testcase:                        reading from 0100, read_data = 00000011, full = 0, empty = 0, Time =               247000
+Testcase:                        reading from 0101, read_data = 00000011, full = 0, empty = 0, Time =               248000
+Testcase:                        reading from 0101, read_data = 00000100, full = 0, empty = 0, Time =               264000
+Testcase:                        reading from 0110, read_data = 00000100, full = 0, empty = 0, Time =               265000
+Testcase:                        reading from 0110, read_data = 00000101, full = 0, empty = 0, Time =               281000
+Testcase:                        reading from 0111, read_data = 00000101, full = 0, empty = 0, Time =               282000
+Testcase:                        reading from 0111, read_data = 00000110, full = 0, empty = 0, Time =               298000
+Testcase:                         testing overflow, read_data = 00000110, full = 0, empty = 0, Time =               299000
+Testcase:                         testing overflow, read_data = 00000111, full = 0, empty = 1, Time =               315000
+Simulation complete via $finish(1) at time 346 NS + 0
+../testbench/cdc_fifo_tb.v:128 	$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xmverilog	17.10-s001: Exiting on Nov 02, 2023 at 23:35:53 EDT  (total: 00:01:23)
